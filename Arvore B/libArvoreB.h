@@ -18,9 +18,16 @@ typedef struct pag {
 	struct pag *ptr[(2*ORDER)+2];	//vetor de ponteiro para as paginas
 } Pag;
 
+/*Nome: createPag
+        Variáveis: *art uma struct do tipo Artigo que sera armazenada num no da pagina, 
+        Objetivos: criar uma nova pagina na Arvore B*/
 void createPag(Artigo* art);
 
-void buscaB(Pag* pt, int x, int f, int g);
+/*Nome: buscaB
+        Variáveis: *pt que aponta para a pagina onde a chave foi encontrada, x é a chave a ser procurada, f informa se a chave foi 
+        	ou nao encontrada e g informa a posicao na pagina onde foi encontrada a chave x
+        Objetivos: buscar a chave x informada na Arvore B*/
+void buscaB(Pag* raiz, Pag** pt, int x, int* f, int* g);
 
 
 
