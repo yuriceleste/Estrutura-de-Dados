@@ -21,7 +21,7 @@ int main(){
 	int op, id, f=0, g=0;
 
 	FILE *Arq;
-	Pag* raiz = NULL;
+	Pag *raiz = NULL, *aux = NULL;
 
 	Artigo* newArtigo = NULL;
 
@@ -33,9 +33,9 @@ int main(){
         if(op == 1){
             printf("\n\t ID: ");
             scanf("%d",&id);
-            buscaB(&raiz, id, &f, &g);
+            aux = buscaB(raiz, id, &f, &g);
             if(f == 1)
-            	printf("\n\tInsercao invalida! Id informado ja se encontra na tabela.\n");
+            	printf("\n\tInsercao invalida! ID informado ja se encontra na tabela.\n");
             else if(f = 0){
             	criaArtigo(id, &newArtigo);
             	insereB(newArtigo, g);
