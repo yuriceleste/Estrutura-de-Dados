@@ -48,7 +48,7 @@ int comparafloat(void *s1, void *s2) {
         return 0;
 }
 */
-// funcao que imprime a matricula do cliente
+// funcao que imprime os dados do cliente
 void imprimeCliente(void* c){
     Cliente* temp = (Cliente*)c;
     printf("%d", temp->identidade);
