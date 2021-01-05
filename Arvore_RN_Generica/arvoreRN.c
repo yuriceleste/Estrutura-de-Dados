@@ -1,3 +1,14 @@
+/*
+	Autor: 
+        Yuri Celeste Pulier	
+	Nome:
+		arvoreRN.c
+    Referencias:
+        https://ava.ufes.br/pluginfile.php/286636/mod_resource/content/1/aula10-Rubro-Negra.pdf
+        https://www.ime.usp.br/~song/mac5710/slides/08rb.pdf
+        http://docente.ifrn.edu.br/robinsonalves/disciplinas/estruturas-de-dados/ArvRN.pdf
+*/
+
 // Inclusão das bibliotecas no programa
 #include "libRN.h"
 
