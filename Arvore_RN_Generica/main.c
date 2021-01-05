@@ -1,3 +1,16 @@
+/*
+	Autor: 
+        Yuri Celeste Pulier	
+	Nome:
+		main.c
+    Observações:
+        Um exemplo de utilização da biblioteca libRN.h implementada com o objetivo da produção de uma estrutura de dados de Árvore Rubro Negra genérica.
+    Referencias:
+        https://ava.ufes.br/pluginfile.php/286636/mod_resource/content/1/aula10-Rubro-Negra.pdf
+        https://www.ime.usp.br/~song/mac5710/slides/08rb.pdf
+        http://docente.ifrn.edu.br/robinsonalves/disciplinas/estruturas-de-dados/ArvRN.pdf
+*/
+
 // Inclusão das bibliotecas no programa
 #include "libRN.h"
 // Constantes
