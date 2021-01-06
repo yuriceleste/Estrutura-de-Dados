@@ -41,6 +41,8 @@ struct regGenerico {
 
 ![TAD-Generico](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/TAD-Generico.png "TAD Genérico")
 
+
+
 ## Quicksort Externo
 
 
