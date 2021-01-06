@@ -1,5 +1,5 @@
 # Estrutura de Dados
----------------------
+
 
 
 ### Arvore Rubro Negra - Genérica
