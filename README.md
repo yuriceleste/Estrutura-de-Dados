@@ -33,15 +33,6 @@ Uma estrutura de dados genérica é aquela que aceita qualquer tipo de dados par
 
 Exemplo TAD Genérico:
 
-struct regGenerico {
-
-   void* info;
-   
-   struct regGenerico prox;
-   
-};
-
-
 ![TAD-Generico](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/TAD-Generico.png "TAD Genérico")
 
 
