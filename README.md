@@ -25,7 +25,8 @@ Exemplo de Árvore rubro-negra balanceada:
 ![arvore1](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/arvore-rn-balanceada.png "Arvore RN balanceada")
 
 
-
+Uma estrutura de dados genérica é aquela que aceita qualquer tipo de dados para serem armazenados, que trabalham de forma transparente para o usuário final (programador), independentemente do tipo de dado que está sendo manipulado, sejam elas int, float, char, struct e entre outros. Podemos definir alguns pontos importantes sobre as características desse tipo abstrato de dados:
+- 
 
 ## Quicksort Externo
 
