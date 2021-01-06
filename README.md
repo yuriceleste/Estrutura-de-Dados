@@ -19,7 +19,8 @@ Dentre as melhorias dessa estrutura de dados podemos observar um melhor tempo de
 5. Para cada nó da árvore, os caminhos até as folhas devem conter o mesmo número de nós negros.
 
 Caso todos as propriedades sejam cumpridas, a árvore estará balanceada, caso contrário, devem ser utilizados métodos como rotação e mudança de cores nos nós da árvore para tornar a árvore novamente balanceada.
-Alguns exemplo de Árvore rubro-negra balanceada:
+
+Exemplo de Árvore rubro-negra balanceada:
 
 ![arvore1](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/arvore-rn-balanceada.png "Arvore RN balanceada")
 
