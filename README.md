@@ -25,8 +25,21 @@ Exemplo de Árvore rubro-negra balanceada:
 ![arvore1](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/arvore-rn-balanceada.png "Arvore RN balanceada")
 
 
-Uma estrutura de dados genérica é aquela que aceita qualquer tipo de dados para serem armazenados, que trabalham de forma transparente para o usuário final (programador), independentemente do tipo de dado que está sendo manipulado, sejam elas int, float, char, struct e entre outros. Podemos definir alguns pontos importantes sobre as características desse tipo abstrato de dados:
-- 
+Uma estrutura de dados genérica é aquela que aceita qualquer tipo de dados para serem armazenados, que trabalham de forma transparente para o usuário final (programador), independentemente do tipo de dado que está sendo manipulado, sejam elas int, float, char, struct e entre outros. Podemos definir alguns pontos importantes sobre as características desse tipo abstrato de dados (TAD) genérico:
+- Uma estrutura genérica deve ser capaz de armazenar qualquer tipo de informação.
+- O TAD deve desconhecer o tipo da informação.
+- As funções TAD não podem manipular diretamente as informações.
+- O cliente do TAD genérico tem a responsabilidade das operações de acesso à informação.
+
+Exemplo TAD Genérico:
+
+struct regGenerico {
+   void* info;
+   struct regGenerico prox;
+};
+
+
+![TAD-Generico](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/TAD-Generico.png "TAD Genérico")
 
 ## Quicksort Externo
 
