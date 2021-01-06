@@ -1,5 +1,5 @@
-# Estrutura_de_Dados
-Algoritmos de estrutura de dados requeridos em projetos dentro da disciplina de Estrutura de Dados II.
+# Estrutura de Dados
+---------------------
 
 
 ### Arvore Rubro Negra - Genérica
