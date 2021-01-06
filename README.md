@@ -18,7 +18,7 @@ Dentre as melhorias dessa estrutura de dados podemos observar um melhor tempo de
 4. Se um nó é rubro, seus filhos devem ser negros.
 5. Para cada nó da árvore, os caminhos até as folhas devem conter o mesmo número de nós negros.
 
-Caso todos as propriedades sejam cumpridas, a árvore estará balanceada, caso contrário, devem ser utilizados métodos como rotação e mudança de cores nos nós da árvore para tornar a árvore novamente balanceada.
+Se todas as propriedades forem cumpridas, a árvore estará balanceada, caso contrário, devem ser utilizados métodos como rotação e mudança de cores nos nós da árvore para torna-la novamente balanceada.
 
 Exemplo de Árvore rubro-negra balanceada:
 
