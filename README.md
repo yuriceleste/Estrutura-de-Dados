@@ -2,7 +2,7 @@
 
 
 
-### Arvore Rubro Negra - Genérica
+## Arvore Rubro Negra - Genérica
 
 Arvore rubro-negra é um tipo de árvore binária de busca balanceada e possuem um bit de dados separado para armazenar a cor de cada nó, que pode ser RUBRO ou NEGRO.
 Cada nó é composto peloes seguintes campos:
@@ -25,7 +25,9 @@ Exemplo de Árvore rubro-negra balanceada:
 ![arvore1](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/arvore-rn-balanceada.png "Arvore RN balanceada")
 
 
-### Quicksort Externo
+
+
+## Quicksort Externo
 
 
 
