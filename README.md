@@ -2,9 +2,9 @@
 
 
 
-## Arvore Rubro Negra - Genérica
+## Árvore Rubro Negra - Genérica
 
-Arvore rubro-negra é um tipo de árvore binária de busca balanceada e possuem um bit de dados separado para armazenar a cor de cada nó, que pode ser RUBRO ou NEGRO.
+Árvore rubro-negra é um tipo de árvore binária de busca balanceada que possui um bit de dados separado para armazenar a cor de cada nó, que pode ser RUBRO ou NEGRO.
 Cada nó é composto peloes seguintes campos:
 - valor (dados armazenados no nó)
 - filho esquerdo
