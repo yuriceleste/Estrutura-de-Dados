@@ -21,7 +21,7 @@ Dentre as melhorias dessa estrutura de dados podemos observar um melhor tempo de
 Caso todos as propriedades sejam cumpridas, a árvore estará balanceada, caso contrário, devem ser utilizados métodos como rotação e mudança de cores nos nós da árvore para tornar a árvore novamente balanceada.
 Alguns exemplo de Árvore rubro-negra balanceada:
 
-![]: https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/arvore-rn-balanceada.png
+![arvore1]: https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/arvore-rn-balanceada.png
 
 
 ### Quicksort Externo
