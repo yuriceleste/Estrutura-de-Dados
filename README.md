@@ -39,6 +39,14 @@ Exemplo TAD Genérico:
 
 ## Quicksort Externo
 
+O Quicksort externo é um algoritmo que utiliza o paradigma de divisão e conquista, e ordana in situ um arquivo de n registros. Os registros encontram-se armazenados consecutivamente em memória secundária de acesso randômico e o algoritmo possui uma complexidade de O(log n) unidades de memória interna.
+
+
+Para ordenar um arquivo A = {R1, ..., Rn}, o algoritmo particiona A como segue:
+
+{R1, ..., Ri} ≤ Ri+1 ≤ Ri+2 ≤ ... ≤ Rj−2 ≤ Rj−1 ≤ {Rj, ... , Rn};
+
+e chama recursivamente o algoritmo em cada um dos subarquivos gerados.
 
 
 Autor: Yuri Celeste Pulier
