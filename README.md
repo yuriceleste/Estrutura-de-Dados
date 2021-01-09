@@ -47,8 +47,13 @@ Para ordenar um arquivo A = {R1, ..., Rn}, o algoritmo particiona A como segue:
 {R1, ..., Ri} ≤ Ri+1 ≤ Ri+2 ≤ ... ≤ Rj−2 ≤ Rj−1 ≤ {Rj, ... , Rn};
 
 e chama recursivamente o algoritmo em cada um dos subarquivos gerados.
+Os registros ordenados {Ri+1, ..., Rj-1} correspondem aos pivôs dentro da memória interna. Para a partição do arquivo, é utilizado uma área de memória interna para o armazenamento desses pivôs e podemos encontrar o tamanho dessa área através do seguinte cálculo, tam. area = j - i - 1, sendo necessariamente ≥ 3.
+
+No momento das chamadas recursivas do algoritmo, deve ser ordenado primeiro o subarquivo de menor tamanho, subarquivos vazios ou com um registro são ignorados, vale notar que se o arquivo de entrada A possuir um tamanho de no máximo (j - i - 1) ele será ordenado em um único passo (serão carregados uma única vez dentro da memória interna).
 
 
-Autor: Yuri Celeste Pulier
+Exemplo algoritmo Quicksort Externo:
+![Quicksort-Externo](https://github.com/yuripulier/Estrutura_de_Dados/blob/master/images/quicksort-externo.png "Quicksort Externo")
 
-Data: 2019
+
+Referência: http://www.decom.ufop.br/guilherme/BCC203/geral/ed2_ordenacao-externa.pdf
